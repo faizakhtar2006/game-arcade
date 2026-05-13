@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arcade Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <canvas
+      id="gameCanvas"
+      width="400"
+      height="400">
+    </canvas>
+
+    <div class="sidebar">
+
+      <h1>ARCADE</h1>
+
+      <p class="switch-info">
+        Press <b>S</b> for Snake
+      </p>
+
+      <p class="switch-info">
+        Press <b>T</b> for Tetris
+      </p>
+
+      <p>
+        Score:
+        <span id="score">0</span>
+      </p>
+
+      <p>
+        High Score:
+        <span id="highScore">0</span>
+      </p>
+
+      <button id="pauseBtn">
+        Pause
+      </button>
+
+      <button id="resetBtn">
+        Reset
+      </button>
+
+      <div class="controls">
+
+        <h3>Controls</h3>
+
+        <p>⬅ Move Left</p>
+        <p>➡ Move Right</p>
+        <p>⬆ Move Up / Rotate</p>
+        <p>⬇ Move Down</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
